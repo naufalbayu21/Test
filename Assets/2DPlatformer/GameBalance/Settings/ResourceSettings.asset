@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397cab45784da3c4a97f233da9fab15a, type: 3}
+  m_Name: ResourceSettings
+  m_EditorClassIdentifier: 
+  prefabs:
+    soundController: {fileID: 114910180799540340, guid: dd8b51b4173e5064dbe7a56dd1c57c62,
+      type: 2}
+    inputController: {fileID: 114311645933453572, guid: da55d4a18cdb45a4aaf83fea32649d28,
+      type: 2}
+    bulletPrefab: {fileID: 114082378167529088, guid: 54cb7ad19ace23248baa93de18c495b1,
+      type: 2}
+    rayBulletPrefab: {fileID: 114082378167529088, guid: 34e89fcdd7158fa4bbfeb5ee2d5b7080,
+      type: 2}
+    grenadePrefab: {fileID: 114995436501637352, guid: 5501cbb325db0fb48ba246d5197e9ea6,
+      type: 2}
+    explosionPrefab: {fileID: 198516135851715880, guid: 6f29120d40ebb4b4894071bd84225ab1,
+      type: 2}
+    sparkPrefab: {fileID: 198882637757493004, guid: 06b59b5beb526ac4a88c2b993c977517,
+      type: 2}
+    raySparkPrefab: {fileID: 198252351971520292, guid: 723688fb3ff468f4084cc0aaf2c8b802,
+      type: 2}
+    traceLine: {fileID: 120593633706810008, guid: 3cc63060464ce9948b91de3a04d828d2,
+      type: 2}
+  textureForEditor: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da211f5e5ce20a84ba2a094d4597af1d, type: 3}
+  m_Name: M
+  m_EditorClassIdentifier: 
+  animator: {fileID: 22100000, guid: 52ec692c34bd9fb449ec04f022ecc018, type: 2}
+  weaponIcon: {fileID: 21300000, guid: d6d6e027cf90bc5428c2c4a622bc0462, type: 3}
+  shotSound:
+    Clip: {fileID: 8300000, guid: 549ee12fd049b024b9a22f45aa755168, type: 3}
+    Priority: 1
+    Volume: 1
+  reloadSound:
+    Clip: {fileID: 8300000, guid: 4cce036f34733674589957c449c9e79c, type: 3}
+    Priority: 1
+    Volume: 1
+  shotTime: 0.07
+  shotType: 0
+  weaponType: 2
+  minDistance: 1
+  shotDistance: 20
+  reloadTime: 1.7
+  cartridgesInMagazine: 35
+  maxCartridges: 150
+  powerBullet: 1
+  damageBullet: 10
+  speedBullet: 10
+  lifeTimeBullet: 5
+  offsetAimByY: 0
+  rayColor: {r: 0, g: 0, b: 0, a: 0}
+  minScatter: 0
+  maxScatter: 7
+  incScatterInOneShot: 1.3
+  moveToMinScatterSpeed: 5.5
+  scatterInAirOffset: 2

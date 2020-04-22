@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cedb3df5c7e824183fae838efd288f, type: 3}
+  m_Name: SpaceHero
+  m_EditorClassIdentifier: 
+  animator: {fileID: 22100000, guid: d0c564345dda1c04ebdc405faf48d804, type: 2}
+  characterPrefab: {fileID: 114746393200399054, guid: b386c112431cc964c9e26bcd9445166d,
+    type: 2}
+  headSprite: {fileID: 21300000, guid: 2418b15c853d68142a4a510b1a4a5ed5, type: 3}
+  startedWeapon: {fileID: 11400000, guid: 3d7b2b3dec9d041428f9b97d58a84b59, type: 2}
+  maxHealth: 200
+  velocityModifySpeed: 10
+  maxSpeed: 5
+  jumpForce: 6.5
+  weaponsCount: 2
+  headDirectionMultiplier: 0.5
+  firstShoulder: {fileID: 21300000, guid: 143d60a910dabcf449ca1f951c55da29, type: 3}
+  firstForearm: {fileID: 21300000, guid: 14698f977a7b35f4c8c0943b283ce584, type: 3}
+  firstForearmOutline: {fileID: 21300000, guid: d2eddc75e9e9f1148b179b0a24b88815,
+    type: 3}
+  secondShoulder: {fileID: 21300000, guid: b48f2ae28df6f724884ba82e72115ae4, type: 3}
+  secondForearm: {fileID: 21300000, guid: 5fa750daeb24f1d478d6c0d543c1c124, type: 3}
+  secondForearmOutline: {fileID: 21300000, guid: d2eddc75e9e9f1148b179b0a24b88815,
+    type: 3}

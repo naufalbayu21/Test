@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0d8d818b5d1b846a37de3daad20b2a, type: 3}
+  m_Name: SoundSettings
+  m_EditorClassIdentifier: 
+  buttonOnHighlightSound:
+    Clip: {fileID: 8300000, guid: 4090002b173d7794f96fad3dc6c01e26, type: 3}
+    Priority: 0
+    Volume: 0.2
+  buttonOnClickSound:
+    Clip: {fileID: 8300000, guid: a425d005d33b78442aec17cd566f2d14, type: 3}
+    Priority: 0
+    Volume: 1
+  nextWeaponSound:
+    Clip: {fileID: 8300000, guid: a456b87c541be2b43a7713d407ef3a9c, type: 3}
+    Priority: 0
+    Volume: 1
+  sparkSounds:
+  - Clip: {fileID: 8300000, guid: 2adbf4214abbc3c4cba0081c1e83e81c, type: 3}
+    Priority: 0
+    Volume: 0.5
+  - Clip: {fileID: 8300000, guid: 9fd302ae86696654b83fd9043bd39f57, type: 3}
+    Priority: 0
+    Volume: 0.5
+  - Clip: {fileID: 8300000, guid: 31aebd5eb11f53647b7d2f9d133667b1, type: 3}
+    Priority: 0
+    Volume: 0.5
+  raySparkSounds:
+  - Clip: {fileID: 8300000, guid: 7385df5aa55afb04d98a189a19fef6cf, type: 3}
+    Priority: 0
+    Volume: 0.1
+  - Clip: {fileID: 8300000, guid: addde4b8ab238c8419b43d75470da055, type: 3}
+    Priority: 0
+    Volume: 0.1
+  - Clip: {fileID: 8300000, guid: 875abad681e421048a3119865eb40d09, type: 3}
+    Priority: 0
+    Volume: 0.1
+  explosionSounds:
+    Clip: {fileID: 8300000, guid: 177f4b80a511dfd4dbbd2071a93ea656, type: 3}
+    Priority: 2
+    Volume: 1
+  music:
+  - {fileID: 8300000, guid: 61bce314551ea73439fdbca4f9f654b0, type: 3}

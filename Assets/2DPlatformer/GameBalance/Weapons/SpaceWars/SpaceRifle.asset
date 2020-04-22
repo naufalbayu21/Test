@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da211f5e5ce20a84ba2a094d4597af1d, type: 3}
+  m_Name: SpaceRifle
+  m_EditorClassIdentifier: 
+  animator: {fileID: 22100000, guid: 71fbde0ac25bce74f9f0f0e3d9f89bcc, type: 2}
+  weaponIcon: {fileID: 21300000, guid: 48f851f2930a9884c9457135da990ff1, type: 3}
+  shotSound:
+    Clip: {fileID: 8300000, guid: 7f1769ace0c19e148a2e4058270e1a09, type: 3}
+    Priority: 2
+    Volume: 0.8
+  reloadSound:
+    Clip: {fileID: 8300000, guid: 4cce036f34733674589957c449c9e79c, type: 3}
+    Priority: 1
+    Volume: 1
+  shotTime: 0.3
+  shotType: 1
+  weaponType: 1
+  minDistance: 1
+  shotDistance: 20
+  reloadTime: 1.7
+  cartridgesInMagazine: 20
+  maxCartridges: 60
+  powerBullet: 4
+  damageBullet: 25
+  speedBullet: 15
+  lifeTimeBullet: 5
+  offsetAimByY: 0
+  rayColor: {r: 1, g: 0, b: 0, a: 1}
+  minScatter: 0.2
+  maxScatter: 5
+  incScatterInOneShot: 1.6
+  moveToMinScatterSpeed: 5
+  scatterInAirOffset: 5

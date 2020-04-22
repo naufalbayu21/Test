@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cedb3df5c7e824183fae838efd288f, type: 3}
+  m_Name: Enemy_1
+  m_EditorClassIdentifier: 
+  animator: {fileID: 22100000, guid: f1a5932a686b4cf4997cd38dc1ca8f54, type: 2}
+  characterPrefab: {fileID: 114140988342903648, guid: 5c864b4631113844d897744394063b6b,
+    type: 2}
+  headSprite: {fileID: 21300000, guid: 5b40d54a7ce117d4da8a7df08c856fde, type: 3}
+  startedWeapon: {fileID: 11400000, guid: e6129382816557f4cba39adeb930ed2c, type: 2}
+  maxHealth: 25
+  velocityModifySpeed: 10
+  maxSpeed: 5
+  jumpForce: 6.5
+  weaponsCount: 0
+  headDirectionMultiplier: 0.5
+  firstShoulder: {fileID: 21300000, guid: 9ba117008a2fbea4387414cc024633b2, type: 3}
+  firstForearm: {fileID: 21300000, guid: afc2e841effe5cb4ca2ae19be584a35e, type: 3}
+  firstForearmOutline: {fileID: 21300000, guid: 291a95b4a1f100a4e923cbad0a8b0ea0,
+    type: 3}
+  secondShoulder: {fileID: 21300000, guid: f671b04d3cf9c77488c550c64b909ebc, type: 3}
+  secondForearm: {fileID: 21300000, guid: 239a206b860b04f4c9c6604f12eadce3, type: 3}
+  secondForearmOutline: {fileID: 21300000, guid: 291a95b4a1f100a4e923cbad0a8b0ea0,
+    type: 3}

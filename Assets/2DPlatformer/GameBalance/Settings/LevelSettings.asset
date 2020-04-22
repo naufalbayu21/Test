@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36710042c0e44e04bbe6c3d791d8df4c, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  mainMenuScene: Assets/2DPlatformer/Scenes/MainMenuScene.unity
+  mainWorldScene: Assets/2DPlatformer/Scenes/MainWorldScene.unity
+  levels:
+  - levelName: Jungle
+    levelScenePath: Assets/2DPlatformer/Scenes/Levels/Jungle_1_0.unity
+    levelSceneName: Jungle_1_0
+    unlockLevelCondition: 2
+    concreteLevelIndex: 0
+    backGroundForMainMenu: {fileID: 1289954625538322, guid: a1d7350989beda54d9aaf60f63527c40,
+      type: 2}
+    buttonLevelBackSprite: {fileID: 21300000, guid: fbf01f01d4c98234d946741794bdd979,
+      type: 3}
+    musicInLevel:
+    - {fileID: 8300000, guid: 87221bdbe521f2b4a8eda3535d52a522, type: 3}
+  - levelName: SpaceWars
+    levelScenePath: Assets/2DPlatformer/Scenes/Levels/SpaceWars_1_0.unity
+    levelSceneName: SpaceWars_1_0
+    unlockLevelCondition: 0
+    concreteLevelIndex: 0
+    backGroundForMainMenu: {fileID: 1541108043302790, guid: 9786591cec1522745851ccbc405ac278,
+      type: 2}
+    buttonLevelBackSprite: {fileID: 21300000, guid: 14be495c6f60eda4b8a05a17ebe67dd5,
+      type: 3}
+    musicInLevel:
+    - {fileID: 8300000, guid: 87221bdbe521f2b4a8eda3535d52a522, type: 3}

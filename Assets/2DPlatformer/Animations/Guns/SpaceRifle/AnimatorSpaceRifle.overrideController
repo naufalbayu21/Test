@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AnimatorSpaceRifle
+  m_Controller: {fileID: 9100000, guid: fb304250e7192954f8e21ea06d311290, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e893cf18ccb175241b104ee2febba2b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 04f6d87e2ae09194a8ac77a85bf19172, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8606ad7ffa54dcd459f496ea7ec1f554, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 04fd5c553efcd664b8652156955acc7d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: df7789904d3aef8449e6cb1c885b26e8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a3e1781dce7a4fb4b8d272253ac157a2, type: 2}
